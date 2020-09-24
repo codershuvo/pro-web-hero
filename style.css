@@ -32,6 +32,7 @@ span {
 #nav ul{
     list-style-type: none;
     min-height: 39.5px;
+    z-index: 999;
 }
 #nav ul li{
     float: left;
@@ -88,10 +89,78 @@ span {
     left: 160px;
 }
 
-
-
-
-#slider img{
+#contentWrapper{
+    border-top: 3px solid gray;
+    background-color: #333D79FF;
+    padding: 10px;
+    overflow: hidden;
+    color: #FAEBEFFF;
+}
+#content{
+    width: 620px;
+    float: left;
+    margin-right: 70px;
+}
+#content h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}
+#content h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+#content p {
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#content img{
     width: 100%;
-    border-bottom: 3px solid gray;
+}
+#content figure{
+    width: 75%;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+#content figcaption{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#content blockquote{
+    background-color: #ddd;
+    margin-left: 50px;
+    padding: 10px;
+    padding-left: 23px;
+    border-left: 2px solid orange;
+    color: black;
+}
+#sidebar{
+    width: 250px;
+    float: left;
+}
+#sidebar ul{
+    list-style-type: circle;
+    padding: 0;
+}
+#sidebar ul li a {
+    text-decoration: none;
+    color: #FAEBEFFF;
+    padding: 3px;
+}
+#footer{
+    background-color: gray;
+    padding: 8px;
+    text-align: center;
+}
+#footer p{
+    color: white;
+}
+.contentWrapper{
+    background-color: #2BAE66FF !important;
 }
