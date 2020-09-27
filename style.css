@@ -249,3 +249,26 @@ figure img{
 .mainSidebar:last-child{
     border-bottom: none;
 }
+#socialArea{
+    list-style: none;
+    padding: 10px;
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 98%;
+    transform: translate(-50%, -50%);
+}
+#socialArea li{
+    float: none;
+    margin: 10px;
+}
+#socialArea li:hover{
+    background-color: lightgray;
+    border-radius: 5px;
+}
+#socialArea li img{
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    padding: 3px;
+}
