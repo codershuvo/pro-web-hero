@@ -1,0 +1,178 @@
+/*		Default Layout: 960px. 
+        Gutters: 24px.
+        Outer margins: 48px.
+        Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+.wrap{
+    width: 960px;
+    display: block;
+    margin: 0 auto;
+}
+#selectnav1{
+    display: none;
+}
+
+/*		Tablet Layout: 768px.
+        Gutters: 24px.
+        Outer margins: 28px.
+        Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .wrap{
+        width: 90%;
+    }
+    #socialArea{
+        margin-left: -5px;
+    }
+    #content{
+        width: 71%;
+        margin-right: 2%;
+    }
+    #sidebar {
+        width: 20%;
+        margin-left: 2%;
+    }
+    #imageWrap p{
+        max-width: 68%;
+    }
+    #selectnav1{
+        display: block;
+        height: 2.75em;
+        width: 100%;
+        text-align: center;
+    }
+    #mainManu{
+        display: none;
+    }
+}
+
+
+
+
+
+
+/*		Mobile Layout: 320px.
+        Gutters: 24px.
+        Outer margins: 34px.
+        Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+    .wrap{
+        width: 98%;
+    }
+    #socialArea{
+       display: none;
+    }
+    #content{
+        width: 100%;
+    }
+    #sidebar {
+        width: 100%;
+    }
+    #sliderWrapper{
+        display: none;
+    }
+    #header{
+        text-align: center;
+    }
+    #imageWrap img{
+        width: 95%;
+        height: auto;
+        margin-right: none;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 3px;
+        margin-bottom: 10px;
+    } 
+    #content figcaption{
+        font-size: 85%;
+    }
+    #content blockquote{
+        margin-left: 1%;
+        padding-left: 3%;
+        padding: 5px;
+    }
+    #selectnav1{
+        display: block;
+        height: 2.75em;
+        width: 100%;
+        text-align: center;
+    }
+    #mainManu{
+        display: none;
+    }
+}
+
+
+
+
+
+
+/*		Wide Mobile Layout: 480px.
+        Gutters: 24px.
+        Outer margins: 22px.
+        Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .wrap{
+        width: 90%;
+    }
+    #socialArea{
+        margin-left: -5px;
+    }
+    #content{
+        width: 100%;
+    }
+    #sidebar {
+        width: 100%;
+    }
+    #sliderWrapper{
+        display: none;
+    }
+    #header{
+        text-align: center;
+    }
+    #imageWrap p{
+        max-width: 65%;
+    }
+    #imageWrap img{
+        width: 120px;
+        height: 120px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 3px;
+        margin-right: 5px;
+        float: left;
+        margin-right: 15px;
+    }
+    #content figcaption{
+        font-size: 85%;
+    }
+    #content blockquote{
+        margin-left: 1%;
+        padding-left: 3%;
+        padding: 5px;
+    }
+    #selectnav1{
+        display: block;
+        height: 2.75em;
+        width: 100%;
+        text-align: center;
+    }
+    #mainManu{
+        display: none;
+    }
+}
+
+
