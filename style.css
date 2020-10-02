@@ -9,11 +9,6 @@ body {
 .mainWrap{
     width: 100%;
 }
-.wrap{
-    width: 960px;
-    display: block;
-    margin: 0 auto;
-}
 .headerBg{
     background-color: #2BAE66FF;
     border-bottom: 3px solid gray;
@@ -257,13 +252,14 @@ figure img{
     top: 50%;
     left: 98%;
     transform: translate(-50%, -50%);
+    z-index: 5555;
 }
 #socialArea li{
     float: none;
     margin: 10px;
 }
 #socialArea li:hover{
-    background-color: lightgray;
+    background-color: #ddd;
     border-radius: 5px;
 }
 #socialArea li img{

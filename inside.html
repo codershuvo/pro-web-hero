@@ -8,6 +8,8 @@
     <link rel="shortcut icon" href="src/images/favicon.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <script src="src/js/responsive-menu.js"></script>
 </head>
 
 <body>
@@ -37,7 +39,7 @@
             <nav>
 
                 <div id="nav">
-                    <ul>
+                    <ul id="mainManu">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Menu Item</a></li>
@@ -258,6 +260,14 @@
     </div>
 
 
+    <script>
+        domready(function () {
+            selectnav('mainManu', {
+                label: '*** Click to Select Menu *** '
+            });
+            prettyPrint()
+        })
+    </script>
 </body>
 
 </html>
